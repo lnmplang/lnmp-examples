@@ -5,9 +5,9 @@
 # without having to publish crates. If your local checkout is named
 # `lnpm-protocol` (older name), uncomment the alternative lines below.
 [patch."https://github.com/lnmplang/lnmp-protocol.git"]
-lnmp-core = { path = "../lnpm-protocol/crates/lnmp-core" }
-lnmp-codec = { path = "../lnpm-protocol/crates/lnmp-codec" }
-lnmp-llb = { path = "../lnpm-protocol/crates/lnmp-llb" }
+lnmp-core = { path = "../lnmp-protocol/crates/lnmp-core" }
+lnmp-codec = { path = "../lnmp-protocol/crates/lnmp-codec" }
+lnmp-llb = { path = "../lnmp-protocol/crates/lnmp-llb" }
 
 # Alternate paths (if the local checkout uses the older folder name):
 # lnmp-core = { path = "../lnpm-protocol/crates/lnmp-core" }
