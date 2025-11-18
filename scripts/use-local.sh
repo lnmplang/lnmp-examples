@@ -7,15 +7,7 @@ set -euo pipefail
 CONFIG_FILE="examples/Cargo.toml"
 
 # Determine canonical local repo directory (support older locally-named variants)
-if [ -d "../../lnmp-protocol" ]; then
-  LNMP_LOCAL_PATH="../../lnmp-protocol"
-elif [ -d "../../lnpm-protocol" ]; then
-  LNMP_LOCAL_PATH="../../lnpm-protocol"
-else
-  # Neither found — default to canonical name for templates and warn the user
-  LNMP_LOCAL_PATH="../../lnmp-protocol"
-  echo "Warning: neither ../../lnmp-protocol nor ../../lnpm-protocol exists; defaulting to ../../lnmp-protocol"
-fi
+LNMP_LOCAL_PATH="../../lnmp-protocol"
 
 if [ ! -f "$CONFIG_FILE" ]; then
   echo "Could not find $CONFIG_FILE"
