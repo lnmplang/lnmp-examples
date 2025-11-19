@@ -62,7 +62,7 @@ checksum = "4a5f13b858c8d314ee3e8f639011f7ccefe71f97f96e50151fb991f267928e2c"
 
 [[package]]
 name = "lnmp-codec"
-version = "0.1.0"
+version = "0.5.0"
 dependencies = [
  "lnmp-core",
  "lnmp-sanitize",
@@ -71,7 +71,7 @@ dependencies = [
 
 [[package]]
 name = "lnmp-core"
-version = "0.1.0"
+version = "0.5.0"
 dependencies = [
  "crc",
  "crc-catalog",
@@ -89,7 +89,7 @@ dependencies = [
 
 [[package]]
 name = "lnmp-llb"
-version = "0.3.0"
+version = "0.5.0"
 dependencies = [
  "lnmp-codec",
  "lnmp-core",
@@ -98,11 +98,11 @@ dependencies = [
 
 [[package]]
 name = "lnmp-sanitize"
-version = "0.1.0"
+version = "0.5.0"
 
 [[package]]
 name = "lnmp-sfe"
-version = "0.1.0"
+version = "0.5.0"
 dependencies = [
  "lnmp-core",
  "serde",
