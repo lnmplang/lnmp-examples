@@ -4,10 +4,6 @@
 lnmp-core = { path = "../lnmp-protocol/crates/lnmp-core" }
 lnmp-codec = { path = "../lnmp-protocol/crates/lnmp-codec" }
 lnmp-llb = { path = "../lnmp-protocol/crates/lnmp-llb" }
-[patch."https://github.com/lnmplang/lnmp-protocol.git"]
-lnmp-core = { path = "../lnmp-protocol/crates/lnmp-core" }
-lnmp-codec = { path = "../lnmp-protocol/crates/lnmp-codec" }
-lnmp-llb = { path = "../lnmp-protocol/crates/lnmp-llb" }
 
 # For CI or non-local builds, remove or omit this file. This patch points to your
 # local `lnmp-protocol` checkout under the parent folder for development.
